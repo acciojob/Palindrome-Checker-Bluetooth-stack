@@ -6,11 +6,12 @@ function palindrome(str){
 		s += str.charAt(i);
 	}
 	if(s===str){
-		return true;
+		return false;
 	}
 	else{
-		return false;
+		return true;
 	}
 }
 
 module.exports = palindrome
+
